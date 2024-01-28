@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900;&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+}
+body{
+    max-height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.contact-bg-container{
+    background-color: #FFCC70;
+    background-image: linear-gradient(219deg, #FFCC70 0%, #C850C0 50%, #FFCC70 100%);
+    background-size: cover;
+    min-height: 101%;
+}
+
+.form{
+    width: 25rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.06);
+    background-color: transparent;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, .37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    margin-left: 35%;
+}
+
+.form1{
+    width: 25rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.06);
+    background-color: transparent;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, .37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    margin-right: 35%;
+}
+
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    letter-spacing: 3px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    opacity: .7;
+}
+
+label{
+    font-size: 16px;
+    color: white;
+    margin-left: 10%;
+    opacity: .8;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+input{
+    width: 80%;
+    margin: 2% 10%;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.06);
+    opacity: .8;
+}
+
+button{
+    width: 40%;
+    margin: 2% auto ;
+    color: white;
+    font-size: 12px;
+    opacity: .7;
+    background-color: #00DBDE;
+    background-image: linear-gradient(219deg, #FFCC70 0%, #C850C0 50%, #FFCC70 100%);
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, .2);
+    box-shadow: 3px 3px 5px rgba(31, 38, 135, .37);
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+}
+
+a{
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10% 11%;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    letter-spacing: 2px;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    opacity: .7;
+    padding-top: 10%;
+}
+
+p{
+    width: 80%;
+    margin: 2% 10%;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.06);
+    opacity: .9;
+}
+
+i{
+    padding-right: 1px;
+    color: rgb(120, 120, 134);
+}
